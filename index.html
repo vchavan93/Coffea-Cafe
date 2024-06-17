@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+          
+            <a href="#home" class="logo">COFFEA   <img src="logoo.png" alt="logo"> CAFE <span>.</span></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <!-- <a href="#blog">Blog</a> -->
+                <a href="#service">Services</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Now you can feel the energy</h3>
+            <h1>start your day with <br>a coffee</h1>
+            <button  class="btn">Order Now</button>
+        </div>
+    </div>
+    <!-- Header Section End -->
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+               <!-- <img src="coffeawithcup.jpg" alt="Coffea"> -->
+            </div>
+            <div class="about-content">
+                <h1>What makes our coffee special?</h1>
+                <h3> The first thing that comes to mind when thinking about specialty coffee is its advanced quality.
+                     The flavors hidden in a cup of coffee are rich and crisp, and this comes not just from the 
+                    quality of the specialty coffee beans, but from the work ethic and dedication put into it by the farmer..</h3>
+                <p>
+                  Unique Menu<br>Delicious Food<br>Perfectly Brewed Coffee
+                  </p>
+                <button class="btn" style="color: black;">About Us</button>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Our <span>Blog</span></h1>
+        <p class="heading-description">Read our blog and know more about our latest update..</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post1.jpg" alt="">
+                    <span>21 <br> Jun </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> John Doe</span></h3>
+                    <h1>Tasty and refresing coffee</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at minus explicabo?</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post2.jpg" alt="">
+                    <span>21 <br> Jun </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> John Doe</span></h3>
+                    <h1>Tasty and refresing coffee</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at minus explicabo?</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post3.jpg" alt="">
+                    <span>21 <br> Jun </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> John Doe</span></h3>
+                    <h1>Tasty and refresing coffee</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at minus explicabo?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <p class="heading-description">We deliver our products free door to door 24x7 = 360</p>
+        <div class="container">
+            <div class="service-box" style="background-image: url(coffeacupimg.jpg);">
+                <div class="service-img">
+                 </div>
+                <div class="service-content">
+                    <h3>Coffee</h3>
+                    <p>May your coffee be strong and your Monday be short.</p>
+                </div>
+            </div>
+            <div class="service-box" style="background-image: url(pasta01.jpg);">
+                <div class="service-img">
+                     
+                </div>
+                <div class="service-content">
+                    <h3>Pasta</h3>
+                    <p>Is there a spaghetti monster or a 
+                      monster? I’ll take them on!</p>
+                </div>
+            </div>
+            <div class="service-box"  style="background-image: url(Nachos01.jpg);">
+                <div class="service-img">
+                     
+                </div>
+                <div class="service-content">
+                    <h3>Nachos</h3>
+                    <p>Whether as a meal or just as
+                      a snack, nachos are simply great</p>
+                </div>
+            </div>
+            <div class="service-box" style="background-image: url(pizza01.jpg);">
+                <div class="service-img">
+                     
+                </div>
+                <div class="service-content">
+                    <h3>Pizza</h3>
+                    <p>Did you know that the food pyramid was inspired
+                      by the shape of the pizza slice?</p>
+                </div>
+            </div>
+            <div class="service-box"  style="background-image: url(cake01.jpg);" >
+                <div class="service-img">
+                    
+                </div>
+                <div class="service-content">
+                    <h3>Brownies</h3>
+                    <p> Anyone who tries to make 
+                     brownies without butter should be arrested</p>
+                </div>
+            </div>
+            <div class="service-box"  style="background-image: url(burger01.jpg);">
+                <div class="service-img">
+                    
+                </div>
+                <div class="service-content">
+                    <h3>Burger</h3>
+                    <p>Got my buns off the couch
+                      and brought them here just to have these buns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+    <!-- Team Section -->
+    <section class="team" id="team" style="background-image: url(teambackground.jpg);">
+        <h1 class="heading"> Our <span>Team</span></h1>
+        <p class="heading-description"> Great teamwork is the only way we create
+          the breakthroughs that define our careers</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic-1.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Ganesh Yelgude</h3>
+                    <p>Co-Founder</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic-2.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Ramdas Yelgude</h3>
+                    <p>Founder</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic-3.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Bunty Yadav</h3>
+                    <p> XYZ</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/pic-2.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Suresh Satav</h3>
+                    <p>ABC</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End-->
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <p class="heading-description">We are always here for you...</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Send email anytime</span></h2>
+                </div>
+                <div>
+                    <p>coffeanibm@gmail.com</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>NIBM Road,Hadapsar</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call Us <br> <span>Call us anytime</span></h2>
+                </div>
+                <div>
+                    <p>+91 7057565625</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-box">
+                <h3>about us </h3>
+                <p> After 10 years working as a Master Roaster for a famous Melbourne coffee pioneer, Fabio Costa created his own piece of Melbourne’s rich coffee history with the opening of Coffea Coffee Torrefazione Bottega at the Queen Victoria Market in the heart of Melbourne.
+
+                    "Coffea" is the Latin name for the genus coffee.</p>
+                <p>Copyrights &copy; 2023 All rights reserved By <a href="https://www.thesimplifieddev.com/">Simplified
+                        Dev</a></p>
+            </div>
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <p>Stay updaet with our latests</p>
+                <form>
+                    <input type="email" name="email" placeholder="admin@gmail.com">
+                    <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>Connect With Us On:</p>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+    <script src="script.js"></script>
+</body>
+</html>
